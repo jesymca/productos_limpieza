@@ -1,0 +1,11 @@
+# Archivos ignorados
+extra/
+extra_/
+media/
+pag/
+*.dir
+*.scale
+*.zip
+editor.html
+rv2500formulashacertuspropiosproductosdelimpieza/
+mejoras
