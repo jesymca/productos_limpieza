@@ -35,7 +35,7 @@ Cuando descarga el aplicativo y lo descomprime en su computadora podra visualiza
 
 esta es la ruta que usted debe seguir para sustituir un kernel viejo por uno nuevo, es posible que sean detectados bug de errores dentro de la plataforma y las mismas sean corregidas al momento, pero que dicha actualizacion no sea suficiente como para efectuar una nueva actualizacion a todo el sistema, pero con el uso de GitHub hemos solucionado ello ya que en tiempo real podremos efectuar la correccion y usted podra descargar al momento la actualizacion con el bug corregido pudiendo solo descargar el archivo kernel.js o descargar todo el master y sustituir los archivos de su aplicativo por los descargados de GitHub solo con esta acción de sustitución su aplicativo estará 100% actualizado.
 
-Puede descargar el master desde [DESCARGAR MASTER](https://github.com/jesymca/productos_limpieza/archive/v5.0.0.zip)
+Puede descargar el master desde [IR A PUBLICACIONES DE ACTUALIZACIONES](https://github.com/jesymca/productos_limpieza/tags)
 
 ## Como es el Funcionamiento
 Es sencillo solo debe seleccionar cualquiera de los módulos disponibles y automáticamente se cargara las opciones que le permitirán interactuar con el sistema, si va a efectuar cálculos de formulas de los productos de limpieza solo debe seleccionar el producto que desea preparar, colocar la cantidad y automáticamente el sistema efectuara el calculo y le dará las instrucciones a seguir para preparar dicho producto.
