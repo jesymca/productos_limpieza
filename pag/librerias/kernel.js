@@ -2211,7 +2211,7 @@ function creditos(){
     resultado += "<\/div>";
     resultado += "<\/div>";
 
-    document.getElementById('contenido').innerHTMLet = resultado;
+    document.getElementById('contenido').innerHTML = resultado;
 }
 
 
