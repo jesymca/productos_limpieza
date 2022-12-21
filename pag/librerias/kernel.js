@@ -1,4 +1,4 @@
-// VARIABLES GLOBALES
+// VARIABLES GLOBALES V 6.0.0
 deposito = "LFI0432016600887";
 version = "6.0.0"
 ano = "2022"
@@ -2211,7 +2211,7 @@ function creditos(){
     resultado += "<\/div>";
     resultado += "<\/div>";
 
-    document.getElementById('contenido').innerHTMLet = resultado;
+    document.getElementById('contenido').innerHTML = resultado;
 }
 
 
