@@ -1,7 +1,7 @@
 // VARIABLES GLOBALES
 deposito = "LFI0432016600887";
-version = "5.0.0"
-ano = "2020"
+version = "6.0.0"
+ano = "2022"
 cabecera = "<div class = 'container'> <div class = 'row well well-sm'> <div class = 'hidden-xs col-sm-4 col-md-6 text-center'> <h2>Descripcion</h2> </div> <div class = 'hidden-xs col-sm-8 col-md-6 text-center'> <h2>Archivo</h2> </div> </div>";
 mensajeactualizacion = "https://local.jesuministrosymas.com.ve/publi/mensajes/cursos/limpieza500/";
 mensajeextra = "https://local.jesuministrosymas.com.ve/publi/mensajes/cursos/limpieza500/extra/";

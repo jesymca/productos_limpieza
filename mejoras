@@ -1,0 +1,11 @@
+Bug de popover en kernel principal fue corregido.
+Se ha habilitado el reconocimiento de las extensiones instaladas.
+Se ha simplificado el mapa de funcionamiento del aplicativo.
+
+Aplicativo
+    index.html
+    -pag
+    -media
+    -extra
+
+Se han relacionado los kernel de las extensiones existentes con el kernel principal del aplicativo.

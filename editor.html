@@ -1,0 +1,106 @@
+<html>
+<!DOCTYPE html
+PRODUCIDO POR:
+    J.E SUMINISTROS Y MAS, C.A.
+    RIF: J-29444489-0
+    MARACAY  -  ESTADO ARAGUA  -  VENEZUELA
+    www.jesuministrosymas.com.ve
+    MANUAL DIGITAL COMO ELABORAR PRODUCTOS DE LIMPIEZA EN VENEZUELA
+    VERSION 3.0.0
+ >
+
+<head>
+    <meta HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+    <TITLE>EDITOR</TITLE>
+    <meta name="language" content="es">
+    <meta name="content-language" content="es">
+    <meta name="author" content="jesuministrosymas">
+    <meta name="DEPOSITO_LEGAL" content="lfi0432016600886">
+    <META NAME="CREATED" CONTENT="20160523;232622253801864">
+    <META NAME="CHANGEDBY" CONTENT="J.E Suministros y Mas, C.A.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <META name="msapplication-TileImage" content="/media/imagen/favicon.ico">
+    <script type="text/javascript" src="pag/librerias/pace/pace.js">
+    </script>
+    <link href="pag/librerias/pace/themes/blue/pace-theme-barber-shop.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="pag/css/estilos.css">
+
+    <link rel="shortcut icon" href="media/imagen/favicon.ico" type="image/x-icon" />
+    <script type="text/javascript" src="./pag/librerias/heyoffline.js"></script>
+    <script type="text/javascript" src="./pag/librerias/principal.js"></script>
+    <script type="text/javascript">
+        window.addEventListener('load', function() {
+            new Heyoffline();
+        }, false);
+    </script>
+    <script type="text/javascript" src="./pag/librerias/kernel.js">
+    </script>
+    <script>
+
+function armado(){
+    quitarigual();
+  ncompoa = "";
+  ncompoa1 = "";
+  ncompoa1 += "<h1>Materia Prima:</h1>";
+    for (ab in componente){
+
+        ncompoa1 += ".-" + ab + " = " + componente[ab].n + "<br>";
+    }
+
+    for (a in secciones){
+        ncompoa += "<h1>";
+        ncompoa += secciones[a];
+        ncompoa += "</h1>";
+        ncompoa += "<ol>";
+
+        for (li in producto) {
+        if (producto[li].grupo == secciones[a])
+        {
+              ncompoa += "<li>";
+              ncompoa += producto[li].n;
+              ncompoa += "</li>";
+         }
+    }
+    ncompoa += "</ol>";
+ };
+ ncompoatotal = ncompoa1 + ncompoa;
+    document.getElementById('contenido').innerHTML = ncompoatotal;
+//document.write(ncompoa);
+    popove();
+}
+armado();
+        </script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" type="text/css" href="pag/bootstrap/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" type="text/css" href="pag/bootstrap/css/bootstrap-theme.min.css">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" name="viewport" />
+    <script src="pag/bootstrap/js/jquery-3.3.1.min.js"></script>
+    <script src="pag/bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+<body LANG="es-VE" DIR="LTR" onload="armado();">
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-xs-12">
+
+                <div data-toggle='popover' class="clase2" id="contenido"></div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <footer>
+        <div id="foot"></div>
+    </footer>
+
+</body>
+</html>
