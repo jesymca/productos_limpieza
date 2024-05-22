@@ -1,4 +1,4 @@
-![JESYMCA](http://www.jesuministrosymas.com.ve/LOGO.png)
+![JESYMCA](https://lh5.googleusercontent.com/z5o6lzJJTa_SeDE3mLtIH020bOFqmXeGcF2pPwRdySjkt12DO9VwZkjGsPPHrJEVnX0Z2g=w16383)
 
 # Version 6.0.0
 # Kernel Curso Aprende a Fabricar Productos de Limpieza
